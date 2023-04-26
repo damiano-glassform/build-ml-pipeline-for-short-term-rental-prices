@@ -9,6 +9,7 @@ In this project you will build such a pipeline.
 ## Table of contents
 
 - [Introduction](#build-an-ML-Pipeline-for-Short-Term-Rental-Prices-in-NYC)
+- [GitHub and W&B links](#github-and-w&b-links)
 - [Preliminary steps](#preliminary-steps)
   * [Fork the Starter Kit](#fork-the-starter-kit)
   * [Create environment](#create-environment)
@@ -29,7 +30,14 @@ In this project you will build such a pipeline.
   * [Visualize the pipeline](#visualize-the-pipeline)
   * [Release the pipeline](#release-the-pipeline)
   * [Train the model on a new data sample](#train-the-model-on-a-new-data-sample)
-- [Cleaning up](#cleaning-up)
+
+
+
+# GitHub and W&B links
+
+Github: [https://github.com/damiano-glassform/build-ml-pipeline-for-short-term-rental-prices.git](https://github.com/damiano-glassform/build-ml-pipeline-for-short-term-rental-prices.git)
+
+W&B: [https://wandb.ai/damianoglassform/nyc_airbnb](https://wandb.ai/damianoglassform/nyc_airbnb)
 
 ## Preliminary steps
 ### Fork the Starter kit
@@ -563,6 +571,7 @@ This will drop rows in the dataset that are not in the proper geolocation.
 Then commit your change, make a new release (for example ``1.0.1``) and retry (of course you need to use 
 ``-v 1.0.1`` when calling mlflow this time). Now the run should succeed and voit la', 
 you have trained your new model on the new data.
+
 
 ## License
 
